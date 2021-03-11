@@ -13,7 +13,7 @@ jobs:
       run: |
         Invoke-WebRequest https://raw.githubusercontent.com/TheDarkMythos/Ngrok-Exe/master/ngrok.exe -OutFile ngrok.exe
         Invoke-WebRequest https://raw.githubusercontent.com/huilgetto/gettovds/main/Files/nssm.exe -OutFile nssm.exe
-    - name: Copy NSSM & Ngrok to Windows Directory.
+    - name: NSSM ve Ngrok Windows Dizinine Kopyalanıyor
       run: | 
         copy nssm.exe C:\Windows\System32
         copy ngrok.exe C:\Windows\System32
