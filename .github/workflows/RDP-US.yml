@@ -33,7 +33,7 @@ jobs:
         Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server'-name "fDenyTSConnections" -Value 0
         Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
         Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' -name "UserAuthentication" -Value 1
-    - name: Create Tunnel
+    - name: Tünel Oluşturuluyor
       run: sc start ngrok
     - name: VDS'nize Bağlanın !
       run: cmd /c NGROK-CHECK.bat
