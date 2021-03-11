@@ -1,5 +1,5 @@
 @echo off
-tasklist | find /i "ngrok.exe" >Nul && goto check || echo "NGROK Services is not Running. One NGROK FREE Account/ 1 Tunnel, If u want Run more VM, Update new NGROK_AUTH_TOKEN into Settings> Secrets> Repository secrets then run workflow again. Your current workflow end shortly. If you still have questions contact: 𝕘𝕖𝕥𝕥𝕠#0101 " & ping 127.0.0.1 >Nul & ping 127.0.0.1 >Nul & exit
+tasklist | find /i "ngrok.exe" >Nul && goto check || echo "NGROK Hizmetleri Çalışmıyor. Bir NGROK ÜCRETSİZ Hesap / 1 Tünel, Daha fazla VM çalıştırmak istiyorsanız, Ayarlar> Sırlar> Depo sırlarına yeni NGROK_AUTH_TOKEN güncelleyin ve ardından iş akışını tekrar çalıştırın. Mevcut iş akışınız kısa süre içinde sona eriyor. NGROK Hizmetleri Çalışmıyor. Bir NGROK ÜCRETSİZ Hesap / 1 Tünel, Daha fazla VM çalıştırmak istiyorsanız, Ayarlar> Sırlar> Depo sırlarına yeni NGROK_AUTH_TOKEN güncelleyin ve ardından iş akışını tekrar çalıştırın. Mevcut iş akışınız trHala sorularınız varsa iletişim: 𝕘𝕖𝕥𝕥𝕠#0101" & ping 127.0.0.1 >Nul & ping 127.0.0.1 >Nul & exit
 :check
 ping 127.0.0.1 > nul
 cls
